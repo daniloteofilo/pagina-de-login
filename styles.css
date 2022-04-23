@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    height:40px;
+    letter-spacing:.25px;
+  }
+
+  header {
+      padding-left: 30px;
+      padding-top: 30px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: rgba(0,0,0,0.9);
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  section {
+      width: 400px;
+      margin-left: 34%;
+      padding-left: 25px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      box-shadow: 0px 0px 10px 0px rgb(223, 223, 223);
+      border-radius: 0.5%;
+    }
+
+    .login {
+        height: 40px;
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .login:focus {
+        box-shadow: 0px 0px 7px 0.5px #0a66c2;
+    }
+
+    .senha {
+        height: 40px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .senha:focus {
+        box-shadow: 0px 0px 7px 0.5px #0a66c2;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 10px 5px;
+    }
+
+    a:hover {
+        text-decoration:underline;
+        background-color: #0a66c223;
+        border-radius: 25%;
+    }
+
+    span {
+        font-size: medium;
+ }
+    .link {
+        padding: 3px;
+        color:#0a66c2;
+        font-size: medium;
+    }
+
+    .buttonentrar {
+        margin-top: 30px;
+        background-color: #0073b1;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: medium;
+        font-weight: 550;
+        padding: 0 150px;
+        background: #0a66c2;
+        border-radius: 28px;
+        height: 50px;
+       
+    }
+   
+    .buttonentrar:hover {
+        background: #0a2cc2d2;
+    }
+
+    .apple {
+        margin-top: 0px;
+        background-color: #0073b1;
+        border: 1px solid rgba(0, 0, 0, 0.699);
+        color: gray;
+        cursor: pointer;
+        font-size: medium;
+        font-weight: 550;
+        padding: 0 100px;
+        background: white;
+        border-radius: 28px;
+        height: 40px;
+    }
+    
+    .apple:hover {
+        box-shadow: 0px 0px 7px 0.5px gray;
+        color: rgba(0, 0, 0, 0.616);
+    }
+
+    .ou {
+        text-align: center;
+        margin-right: 30px;    
+    }
+
+    .ultimalinha {
+        width: 400px;
+      margin-left: 39%;
+      padding-left: 25px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+    }
