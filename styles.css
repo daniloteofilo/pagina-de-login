@@ -12,8 +12,10 @@
   }
 
   header {
+      display: flex;
       padding-left: 30px;
       padding-top: 30px;
+      justify-content: start;
   }
 
   h1 {
