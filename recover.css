@@ -24,10 +24,8 @@
     margin-bottom: 10px;
   }
   section {
-      display: flex;
-      align-items: center;
       width: 400px;
-      
+      margin-left: 34%;
       padding-left: 10px;
       padding-top: 15px;
       padding-bottom: 15px;
